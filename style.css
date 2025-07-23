@@ -11,7 +11,7 @@ body {
 }
 
 .envelope-fechado {
-    width: 250px;
+    width: 100px;
     animation: mexerEnvelope 1.5s steps(3, end) infinite;
     animation-delay: 0s;
     animation-iteration-count: infinite;
