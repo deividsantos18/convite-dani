@@ -24,6 +24,10 @@ body {
     margin-top: 20px;
 }
 
+.convite-container {
+    margin-top: 50px;
+}
+
 #brilho {
     position: fixed;
     top: 0;
@@ -48,7 +52,7 @@ body {
 
 .convite {
   position: absolute;
-  bottom: -150px; /* começa abaixo do container */
+  top: -30%; /* começa abaixo do container */
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -58,7 +62,7 @@ body {
 }
 
 .convite.ativo {
-  bottom: 0;
+  bottom: 30px;
   opacity: 1;
 }
 
